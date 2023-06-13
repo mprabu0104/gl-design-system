@@ -1,4 +1,5 @@
 {
+  "homepage": "http://mprabu0104.github.io/gl-design-system",
   "name": "gl-design-system",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +26,9 @@
     "build-storybook": "build-storybook -s public",
     "svgr": "npx @svgr/cli -d src/components/Icons/ assets/icons",
     "tokens:prepare": "npx token-transformer public/tokens.json public/input.json",
-    "tokens:build": "npx style-dictionary build --config config.json"
+    "tokens:build": "npx style-dictionary build --config config.json",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
   },
   "optionalDependencies": {
     "babel-loader": "8.1.0"
