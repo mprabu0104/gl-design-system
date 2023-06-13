@@ -1,0 +1,205 @@
+{
+  "colors": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "A white color"
+    },
+    "brandSecondary": {
+      "value": "#1B1C1F",
+      "type": "color"
+    },
+    "brandPrimary": {
+      "value": "#9ba0de",
+      "type": "color",
+      "description": "Brand primary color"
+    },
+    "grey700": {
+      "value": "#d1d1d1",
+      "type": "color",
+      "description": "Grey"
+    },
+    "textColor": {
+      "value": "#d1d1d1",
+      "type": "color",
+      "description": "Brand primary color"
+    },
+    "orange": {
+      "value": "#ED002E",
+      "type": "color"
+    },
+    "Accent": {
+      "value": "#ca1696",
+      "type": "color"
+    }
+  },
+  "spacing": {
+    "sm": {
+      "value": 4,
+      "type": "spacing"
+    },
+    "md": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "lg": {
+      "value": 16,
+      "type": "spacing"
+    },
+    "xl": {
+      "value": 32,
+      "type": "spacing"
+    }
+  },
+  "shadowSmall": {
+    "value": {
+      "color": "#0000001a",
+      "type": "dropShadow",
+      "x": 0,
+      "y": 0,
+      "blur": 12,
+      "spread": 0
+    },
+    "type": "boxShadow"
+  },
+  "shadowLarge": {
+    "value": {
+      "color": "#0000004d",
+      "type": "dropShadow",
+      "x": 0,
+      "y": 0,
+      "blur": 24,
+      "spread": 0
+    },
+    "type": "boxShadow"
+  },
+  "fontFamilies": {
+    "roboto": {
+      "value": "Roboto",
+      "type": "fontFamilies"
+    },
+    "raleway": {
+      "value": "Raleway",
+      "type": "fontFamilies"
+    },
+    "irish-grover": {
+      "value": "Irish Grover",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "0": {
+      "value": 24,
+      "type": "lineHeights"
+    },
+    "1": {
+      "value": 32,
+      "type": "lineHeights"
+    },
+    "2": {
+      "value": 26,
+      "type": "lineHeights"
+    }
+  },
+  "fontWeights": {
+    "roboto-0": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "raleway-1": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "irish-grover-2": {
+      "value": "Regular",
+      "type": "fontWeights"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "value": 14,
+      "type": "fontSizes"
+    },
+    "1": {
+      "value": 16,
+      "type": "fontSizes"
+    },
+    "2": {
+      "value": 24,
+      "type": "fontSizes"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "value": "0%",
+      "type": "letterSpacing"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": 0,
+      "type": "paragraphSpacing"
+    }
+  },
+  "Font Body": {
+    "value": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": 24,
+      "fontSize": 16,
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "Font Heading": {
+    "value": {
+      "fontFamily": "Raleway",
+      "fontWeight": "Bold",
+      "lineHeight": 32,
+      "fontSize": 24,
+      "letterSpacing": "0%",
+      "paragraphSpacing": 0,
+      "textCase": "none",
+      "textDecoration": "none"
+    },
+    "type": "typography"
+  },
+  "textCase": {
+    "none": {
+      "value": "none",
+      "type": "textCase"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  },
+  "font": {
+    "component": {
+      "button": {
+        "lg": {
+          "value": {
+            "fontFamily": "Irish Grover",
+            "fontWeight": "Regular",
+            "lineHeight": 26,
+            "fontSize": 14,
+            "letterSpacing": "0%",
+            "paragraphSpacing": 0,
+            "textCase": "none",
+            "textDecoration": "none"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

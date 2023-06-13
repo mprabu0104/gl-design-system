@@ -1,0 +1,16 @@
+{
+  "source": [
+    "public/input.json"
+  ],
+  "platforms": {
+    "js": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "destination": "src/tokens.js",
+          "format": "javascript/es6"
+        }
+      ]
+    }
+  }
+}
