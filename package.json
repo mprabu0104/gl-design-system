@@ -28,7 +28,7 @@
     "tokens:prepare": "npx token-transformer public/tokens.json public/input.json",
     "tokens:build": "npx style-dictionary build --config config.json",
     "predeploy": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "optionalDependencies": {
     "babel-loader": "8.1.0"
